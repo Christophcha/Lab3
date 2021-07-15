@@ -16,11 +16,8 @@ public class VowelCounter {
 		int oCounter = 0;
 		int uCounter = 0;
 		int nonVowelSum = 0;
-		//input = input.replace(" ", "");
-		//input = input.replace("?", "");
-		//input = input.replace(".", "");
-		//input = input.replace("!", "");
 		
+		//scans string for vowels and nonvowels and add it to a counter
 		for(int i = 0; i < input.length(); i++) {
 			if(input.charAt(i) == 'a')
 				aCounter++;
@@ -42,6 +39,8 @@ public class VowelCounter {
 		System.out.println("There are " + oCounter + " o's.");
 		System.out.println("There are " + uCounter + " u's.");
 		System.out.println("There are " + nonVowelSum + " non vowels.");
+		
+		scan.close();
 		}
 
 	}

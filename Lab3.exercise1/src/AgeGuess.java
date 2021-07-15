@@ -8,7 +8,7 @@ public class AgeGuess {
 		
 		Random randomNumber = new Random();
 		
-		int age = randomNumber.nextInt(100); // gives age a random number 0-100
+		int age = randomNumber.nextInt(100); //Gives age a random number 0-100
 		
 		Scanner scan = new Scanner(System.in);
 		
