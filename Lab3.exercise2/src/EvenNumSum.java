@@ -23,5 +23,6 @@ public class EvenNumSum {
 			for (int i = 2; i <= inputValue; i += 2) 
 				System.out.println(i);
 		}
+		scan.close();
 	}
 }
